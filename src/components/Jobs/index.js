@@ -344,7 +344,6 @@ class Jobs extends Component {
               {salaryRangesList.map(each => {
                 console.log(each)
                 const selectingSalaryRange = () => {
-                  console.log('clicked')
                   this.salaryRangeSelected(each.salaryRangeId)
                 }
                 return (
